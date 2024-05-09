@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.caja1{
+    background-image: url("../assets/images/image1.jpg");
+    text-align: center;
+    font-size: 400px;
+    background-position: center;
+    padding: 400px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#titulo{
+    text-align: center;
+    font-size: 400px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.caja2{
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin: 200px;
+    line-height: 10px;
+}
+.textoDC{
+    font-size: 100px;
+    color: #fb4e5c;
+}
+.textoLorem{
+    color: black;
+    font-size: 30px;
+    line-height: 50px;
+}
+.button{
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #fb4e5c;
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 60px;
+}
+.caja3{
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin: 200px;
+    line-height: 10px;
+}
+.fondo{
+    background-image: url("../assets/images/image4.png");
+    height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.text_fondo{
+    max-width: 40%;
+    margin: 40px 70px;
+    justify-content: flex-end;
+    text-align: justify;
+}
+
+.pie {
+    color: rgb(255, 255, 255);
+    background:#fb4e5c;
+    padding: .20rem .8rem;
+}
+
+.info_tabla{
+   color: white;
+ justify-content: center;
+   padding: 80px 250px;;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+   line-height: 2.0;
+}
+
+td {
+    width: 31%;
+    letter-spacing: 1px;
+    justify-content: space-around;
+}
+
+.tdnumero1{
+    line-height: 8.0;
+}
+hr{
+    width: 80%; /* Ancho de la línea separadora */
+    border-style: solid; /* Estilo de la línea */
+    border-width: 0.1px; /* Grosor de la línea */
+    border-color:white ; /* Color de la línea */
+}
+.footer{
+    margin-top: 10px; /* Espacio superior para separar del hr */
+    padding: 25px 161px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.word{
+    font-family:sans-serif;
+    font-size:  55px;
+}
+.text1{
+    font-family:sans-serif;
+    line-height: 2.0;
+    text-align: justify;
+}
